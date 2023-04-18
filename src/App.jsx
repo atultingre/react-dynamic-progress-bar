@@ -5,7 +5,7 @@ function App() {
   return (
     <article className="article">
       <section className="skills">
-        <h3 className="h3 skills-title">My skills</h3>
+        {/* <h3 className="h3 skills-title">My skills</h3> */}
         <ul className="skills-list content-card">
           {skill.map((skill, ind) => (
             <li className="skill-item" key={ind}>
